@@ -64,7 +64,7 @@ const Contact = () => {
           </Card>
         </div>
 
-        {/* Google Maps */}
+        {/* Google Maps - Telephely */}
         <div className="max-w-4xl mx-auto mb-8">
           <Card>
             <CardHeader>
@@ -84,6 +84,32 @@ const Contact = () => {
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"
                   title="Kocsis Fivérek Kft Telephely"
+                />
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+
+        {/* Google Maps - Alkatrész Üzlet */}
+        <div className="max-w-4xl mx-auto mb-8">
+          <Card>
+            <CardHeader>
+              <CardTitle className="flex items-center gap-2 text-secondary">
+                <Store className="h-5 w-5" />
+                Alkatrész Üzletünk Térképen
+              </CardTitle>
+            </CardHeader>
+            <CardContent className="p-0">
+              <div className="w-full h-96 rounded-b-lg overflow-hidden">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2699.5!2d19.4!3d47.45!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDfCsDI3JzAwLjAiTiAxOcKwMjQnMDAuMCJF!5e0!3m2!1shu!2shu!4v1234567890124!5m2!1shu!2shu&q=S%C3%BClys%C3%A1p%2C+Pesti+%C3%BAt+65"
+                  width="100%"
+                  height="100%"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Kocsis Fivérek Kft Alkatrész Üzlet"
                 />
               </div>
             </CardContent>
