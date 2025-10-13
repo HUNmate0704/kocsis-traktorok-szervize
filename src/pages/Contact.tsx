@@ -91,7 +91,7 @@ const Contact = () => {
             <CardContent className="p-0">
               <div className="w-full h-96 rounded-b-lg overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2699.2841896885947!2d19.398745476923077!3d47.45138997117859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741c3e5c3e5c3e5%3A0x0!2zNDfCsDI3JzA1LjAiTiAxOcKwMjQnMDAuMCJF!5e0!3m2!1shu!2shu!4v1234567890125!5m2!1shu!2shu&q=S%C3%BClys%C3%A1p%2C+Pesti+%C3%BAt+65"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2698.0790447327386!2d19.524884076692867!3d47.44939859881943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741bb76e398f987%3A0xd0c51dcfc09f4c2e!2zU8O8bHlzw6FwLCBQZXN0aSDDunQgNjUsIDIyNDE!5e0!3m2!1shu!2shu!4v1760351585218!5m2!1shu!2shu"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
@@ -117,7 +117,7 @@ const Contact = () => {
             <CardContent className="p-0">
               <div className="w-full h-96 rounded-b-lg overflow-hidden">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2699.1841896885947!2d19.398745476923077!3d47.45238997117859!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741c3e5c3e5c3e5%3A0x0!2zNDfCsDI3JzA4LjYiTiAxOcKwMjQnMDAuMCJF!5e0!3m2!1shu!2shu!4v1234567890126!5m2!1shu!2shu&q=S%C3%BClys%C3%A1p%2C+Bogd%C3%A1n+Fl%C3%B3ri%C3%A1n+u.+5"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2698.0175262859943!2d19.513820876692826!3d47.450597798736815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741bb9c8363aef1%3A0x7b17eb49c0a1d826!2zU8O8bHlzw6FwLCBCb2dkw6FuIEZsw7NyacOhbiB1LiA1LCAyMjQx!5e0!3m2!1shu!2shu!4v1760351641321!5m2!1shu!2shu"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
