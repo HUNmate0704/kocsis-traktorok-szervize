@@ -5,9 +5,9 @@ const Navigation = () => {
   const location = useLocation();
 
   const navItems = [
-    { path: "/", label: "Főoldal" },
-    { path: "/gallery", label: "Eladó Gépek" },
-    { path: "/contact", label: "Elérhetőségek" },
+    { path: "/", label: "Bemutatkozás" },
+    { path: "/gallery", label: "Eladó gépeink" },
+    { path: "/contact", label: "Elérhetőség" },
   ];
 
   return (
@@ -16,7 +16,7 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center gap-2 text-primary font-bold text-xl">
             <Wrench className="h-6 w-6" />
-            <span>Kocsis Fivérek Kft</span>
+            <span>Kocsis Fivérek Mezőgazdasági Gépszervíz</span>
           </Link>
           
           <div className="flex gap-6">

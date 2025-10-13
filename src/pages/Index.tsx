@@ -38,10 +38,10 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl">
             <h1 className="text-5xl font-bold mb-6">
-              Üdvözöljük a Kocsis Fivérek Kft weboldalán!
+              Kocsis Fivérek<br />Mezőgazdasági Gépszervíz
             </h1>
             <p className="text-xl mb-8 opacity-90">
-              Több mint 20 éves multtal rendelkezik mezőgazdasági gépszervízünk.
+              Több mint 20 éves tapasztalat mezőgazdasági gépek szervizelésében
             </p>
             <div className="flex gap-4">
               <Button asChild size="lg" variant="secondary">
@@ -194,8 +194,8 @@ const Index = () => {
       {/* Footer */}
       <footer className="bg-primary text-primary-foreground py-8">
         <div className="container mx-auto px-4 text-center">
-          <p className="text-lg font-semibold mb-2">Kocsis Fivérek Kft</p>
-          <p className="opacity-90">Több mint 20 év tapasztalat a mezőgazdasági gépek szervizelésében</p>
+          <p className="text-lg font-semibold mb-2">Kocsis Fivérek Mezőgazdasági Gépszervíz</p>
+          <p className="opacity-90">Több mint 20 év tapasztalat mezőgazdasági gépek szervizelésében</p>
         </div>
       </footer>
     </div>
