@@ -15,6 +15,21 @@ const Contact = () => {
           </p>
         </div>
 
+        {/* Telefonszámok felül */}
+        <Card className="max-w-2xl mx-auto mb-12">
+          <CardHeader>
+            <CardTitle className="flex items-center gap-2 text-accent">
+              <Phone className="h-5 w-5" />
+              Telefon
+            </CardTitle>
+          </CardHeader>
+          <CardContent className="space-y-2">
+            <p className="text-lg font-medium">+36 30/330-7853</p>
+            <p className="text-lg font-medium">+36 30/338-7353</p>
+          </CardContent>
+        </Card>
+
+        {/* Telephely és Alkatrész üzlet */}
         <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-12">
           <Card className="hover:shadow-lg transition-shadow">
             <CardHeader>
@@ -115,19 +130,6 @@ const Contact = () => {
             </CardContent>
           </Card>
         </div>
-
-        <Card className="max-w-2xl mx-auto mt-8">
-          <CardHeader>
-            <CardTitle className="flex items-center gap-2 text-accent">
-              <Phone className="h-5 w-5" />
-              Telefon
-            </CardTitle>
-          </CardHeader>
-          <CardContent className="space-y-2">
-            <p className="text-lg font-medium">+36 30/330-7853</p>
-            <p className="text-lg font-medium">+36 30/338-7353</p>
-          </CardContent>
-        </Card>
 
         <div className="text-center mt-12 p-6 bg-muted/50 rounded-lg max-w-2xl mx-auto">
           <p className="text-muted-foreground">
