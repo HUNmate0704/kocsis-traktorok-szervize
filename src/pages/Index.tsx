@@ -9,7 +9,7 @@ import kocsis007Image from "@/assets/Kocsis007.jpg";
 
 const Index = () => {
   const services = [
-    { icon: Wrench, title: "Szervizelés és Javítás", desc: "Rába-15, TZ4K, MT8, Zetor, MTZ, Feng Shou, Antonio Carraro traktorok" },
+    { icon: Wrench, title: "Szervizelés és Javítás", desc: "Rába-15, TZ4K, MT8, Antonio traktorok, kínai és japán kistraktorok" },
     { icon: Settings, title: "Teljes Felújítás", desc: "Komplett traktor felújítás szakértő csapatunkkal" },
     { icon: CheckCircle, title: "Műszaki Vizsgáztatás", desc: "Traktorok vizsgáztatása az összes adminisztrációval" },
     { icon: ShoppingCart, title: "Alkatrész Értékesítés", desc: "Gyári, utángyártott, felújított vagy használt alkatrészek" },
@@ -17,12 +17,11 @@ const Index = () => {
   ];
 
   const tractorTypes = [
-    "Rába-15", "TZ4K", "MT8", "Zetor", "MTZ", "Feng Shou", "Antonio Carraro"
+    "Rába-15", "TZ4K", "MT8", "Antonio", "Kínai és Japán kistraktorok"
   ];
 
   const partsAvailable = [
-    "TZ4K, Rába-15, Feng-Shou traktorok és alkatrészek",
-    "Zetor, MTZ, Antonio Carraro alkatrészek",
+    "TZ4K, Rába-15, Antonio traktorok és alkatrészek, kínai és japán kistraktorok és alkatrészeik",
     "STIHL damilos kaszák, láncfűrészek",
     "STIHL kapálógépek, fűnyírók, kerti gépek",
     "Csapágyak, szimeringek",
@@ -41,7 +40,7 @@ const Index = () => {
               Kocsis Fivérek<br />Mezőgazdasági Gépszervíz
             </h1>
             <p className="text-xl mb-8 opacity-90">
-              Több mint 20 éves tapasztalat mezőgazdasági gépek szervizelésében
+              Több mint 30 éves tapasztalat mezőgazdasági gépek szervizelésében
             </p>
             <div className="flex gap-4">
               <Button asChild size="lg" variant="secondary">
@@ -88,6 +87,10 @@ const Index = () => {
                 <p className="text-lg leading-relaxed">
                   Szervizünk megkezdte <strong className="text-secondary">TZ4K és RÁBA-15 kistraktorok szervokormányra való átszerelését</strong>, továbbá korszerű négyütemű motorok beszerelését!
                 </p>
+                <p className="text-lg leading-relaxed">
+                  Minden javításra <strong className="text-primary">Garanciát</strong> vállalunk!
+                </p>
+
               </CardContent>
             </Card>
           </div>
