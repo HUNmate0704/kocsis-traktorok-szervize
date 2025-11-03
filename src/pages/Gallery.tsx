@@ -24,11 +24,15 @@ import tz4k7 from "@/assets/gallery/tz4k-7.jpg";
 import tz4k8 from "@/assets/gallery/tz4k-8.jpg";
 import x1 from "@/assets/gallery/x1.jpg";
 import x2 from "@/assets/gallery/x2.jpg";
+import tz4k14many from "@/assets/gallery/tz-4k-14-b.jpg";
+import raba15many from "@/assets/gallery/raba-15.jpg";
+
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const galleryItems = [
+    { src: tz4k14many, title: "TZ4K-14B Traktorok", category: "TZ4K" },
     { src: tz4k1, title: "TZ4K-14B Traktor", category: "TZ4K" },
     { src: tz4k2, title: "TZ4K-14B - Oldalnézet", category: "TZ4K" },
     { src: tz4k3, title: "TZ4K-14B - Oldalnézet 2", category: "TZ4K" },
@@ -41,6 +45,7 @@ const Gallery = () => {
     { src: mt82, title: "MT8 Traktor - Oldalnézet", category: "MT8" },
     { src: mt83, title: "MT8 Traktor - Hátsó nézet", category: "MT8" },
     { src: mt84, title: "MT8 Traktor - Oldalnézet 2", category: "MT8" },
+    { src: raba15many, title: "Rába-15 Traktorok", category: "Rába-15" },
     { src: raba151, title: "Rába-15 Traktor", category: "Rába-15" },
     { src: raba152, title: "Rába-15 Traktor - Oldalnézet", category: "Rába-15" },
     { src: mtb, title: "MTB Traktor", category: "MTB" },
