@@ -76,7 +76,7 @@ const Index = () => {
               <CardContent className="p-8 space-y-4 text-foreground">
                 <p className="text-lg leading-relaxed">
                   Általános mezőgazdasági gépek, traktorok javításával foglalkozunk.
-                  <strong className="text-primary"> 10 éve nyitottuk alkatrész üzletünket Sülysápon</strong>, közvetlenül a 31-es főút mellett, ahol a felsorolt géptípusokhoz folyamatosan tudjuk biztosítani az alkatrészeket. Gyári, utángyártott, felújított vagy használt készletről.
+                  <strong className="text-primary"> 20 éve nyitottuk alkatrész üzletünket Sülysápon</strong>, közvetlenül a 31-es főút mellett, ahol a felsorolt géptípusokhoz folyamatosan tudjuk biztosítani az alkatrészeket. Gyári, utángyártott, felújított vagy használt készletről.
                 </p>
                 <p className="text-lg leading-relaxed">
                   <strong className="text-primary">Szervizünk 6 fő szakképzett</strong>, nagy tapasztalattal rendelkező szakemberekből áll. A gépek javítását végezzük szakműhelyben és helyszínen is.
