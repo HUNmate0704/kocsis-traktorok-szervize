@@ -42,6 +42,10 @@ const Index = () => {
             <p className="text-xl mb-8 opacity-90">
               Több mint 30 éves tapasztalat mezőgazdasági gépek szervizelésében
             </p>
+            <p className="text-xl mb-8 opacity-90">
+              Üzletünk 2000 óta működik Sülysápon, ahol biztosított parkolási lehetőséggel tudnak vásárolni.
+            </p>
+            
             <div className="flex gap-4">
               <Button asChild size="lg" variant="secondary">
                 <Link to="/contact">
