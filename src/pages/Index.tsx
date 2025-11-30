@@ -9,7 +9,7 @@ import kocsis007Image from "@/assets/Kocsis007.jpg";
 
 const Index = () => {
   const services = [
-    { icon: Wrench, title: "Szervizelés és Javítás", desc: "Rába-15, TZ4K, MT8, Antonio traktorok, kínai és japán kistraktorok" },
+    { icon: Wrench, title: "Szervizelés és Javítás", desc: "Rába-15, TZ4K, MT8 traktorok, kínai és japán kistraktorok" },
     { icon: Settings, title: "Teljes Felújítás", desc: "Komplett traktor felújítás szakértő csapatunkkal" },
     { icon: CheckCircle, title: "Műszaki Vizsgáztatás", desc: "Traktorok vizsgáztatása az összes adminisztrációval" },
     { icon: ShoppingCart, title: "Alkatrész Értékesítés", desc: "Gyári, utángyártott, felújított vagy használt alkatrészek" },
@@ -17,11 +17,11 @@ const Index = () => {
   ];
 
   const tractorTypes = [
-    "Rába-15", "TZ4K", "MT8", "Antonio", "Kínai és Japán kistraktorok"
+    "Rába-15", "TZ4K", "MT8", "Kínai és Japán kistraktorok"
   ];
 
   const partsAvailable = [
-    "TZ4K, Rába-15, Antonio traktorok és alkatrészek, kínai és japán kistraktorok és alkatrészeik",
+    "TZ4K, Rába-15 traktorok és alkatrészek, kínai és japán kistraktorok és alkatrészeik",
     "STIHL damilos kaszák, láncfűrészek",
     "STIHL kapálógépek, fűnyírók, kerti gépek",
     "Csapágyak, szimeringek",
@@ -202,7 +202,7 @@ const Index = () => {
       <footer className="bg-primary text-primary-foreground py-8">
         <div className="container mx-auto px-4 text-center">
           <p className="text-lg font-semibold mb-2">Kocsis Fivérek Mezőgazdasági Gépszervíz</p>
-          <p className="opacity-90">Több mint 20 év tapasztalat mezőgazdasági gépek szervizelésében</p>
+          <p className="opacity-90">Több mint 30 év tapasztalat mezőgazdasági gépek szervizelésében</p>
         </div>
       </footer>
     </div>
